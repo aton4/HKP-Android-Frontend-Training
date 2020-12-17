@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-
-import javax.lang.model.util.ElementScanner14;
-
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         // declare low, middle, and high varibles to represent the left side index, the caluated middle, and the right side index
