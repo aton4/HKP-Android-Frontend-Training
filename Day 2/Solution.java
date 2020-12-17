@@ -1,4 +1,5 @@
 class Solution {
+    // finds the range of the target integer in a int array using a modified binary search algorithm. Time Complexity: O(log n)
     public int[] searchRange(int[] nums, int target) {
         // declare low, middle, and high varibles to represent the left side index, the caluated middle, and the right side index
         int low = 0;
