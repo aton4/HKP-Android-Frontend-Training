@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // calls the parent class's onCreate
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
+        // calls the parent class's onStart
         super.onStart();
 
         // sends a message in logcat that the app code is currently in onStart
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
+        // calls the parent class's onResume
         super.onResume();
         // sends a message in logcat that the app code is currently in onResume
         Log.d("tag", "In onResume");
@@ -33,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onPause() {
+        // calls the parent class's onPause
         super.onPause();
         // sends a message in logcat that the app code is currently in onPause
         Log.d("tag", "In onPause");
@@ -40,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStop() {
+        // calls the parent class's onStop
         super.onStop();
         // sends a message in logcat that the app code is currently in onStop
         Log.d("tag", "In onStop");
@@ -47,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        // calls the parent class's onDestroy
         super.onDestroy();
         // sends a message in logcat that the app code is currently in onDestroy
         Log.d("tag", "In onDestroy");
