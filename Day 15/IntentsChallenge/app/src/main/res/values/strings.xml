@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntentsChallenge</string>
+    <string name="tel">tel:</string>
+    <string name="http">http://</string>
+    <string name="geo">geo:0,0?=</string>
+    <string name="contact_number">contactNumber</string>
+    <string name="contact_website">contactWebsite</string>
+    <string name="contact_location">contactLocation</string>
+    <string name="contact_face_res_ID">contactFaceResID</string>
+</resources>
